@@ -5,83 +5,60 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, 
         initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
     <title>Final Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
 
-  <body>
+
     <header class="header">
-      <nav class="navbar"></nav>
-        <a href="index.html" class="nav-logo">Travel.</a>
+      <nav class="header-nav">
+        <h1 class="logo"><a href="index.html">TRAVEL</a></h1>
         <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="destinations.html" class="nav-link">Destinations</a>
-          </li>
-          <li class="nav-item">
-            <a href="activities.html" class="nav-link">Activities</a>
-          </li>
+          <li class="nav-item"><a href="about.html">About</a></li>
+          <li class="nav-item"><a href="destinations.html">Destinations</a></li>
+          <li class="nav-item"><a href="activities.html">Activities</a></li>
         </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
       </nav>
     </header>
-    <main>
-      <!--Landing Area-->
-      <div id="landing">
-        <div id="landing-text">
-          <div id=landing-text-inner">
-            <h1>Globe Trotter Travel</h1>
-            <h2>Amazing Destinations, Amazing People</h2>
-            <a href="destinations.html" class="btn" id="view-work">
-              See Trips
-            </a>
+
+    <body>
+      <main>
+        <div id="home-strip">
+          <div id="home-text">
+            <div>
+              <h1>Globe Trotter Travel</h1>
+              <h2>Amazing Destinations, Amazing People</h2>
+              <a href="destinations.html" class="button" id="view-work">
+                See Trips
+              </a>
+            </div>
           </div>
+          <div id="home-image"></div>
         </div>
-        <div id="landing-image"></div>
-      </div>
-
-      <div id="images">
-        <div id="header">
-          <h2>Our Trips</h2>
-        </div>
-
-        <img src="img/amalfi.jpeg" alt="italy">
-        <div class="caption">
-          <h3>Photo One</h3>
-          <p>Dummy text</p>
-        </div>
-        <img src="img/amalfi.jpeg" alt="italy">
-        <div class="caption">
-          <h3>Photo Two</h3>
-          <p>Dummy text</p>
-        </div>
-        <img src="img/amalfi.jpeg" alt="italy">
-        <div class="caption">
-          <h3>Photo Three</h3>
-          <p>Dummy text</p>
-        </div>
-        <img src="img/amalfi.jpeg" alt="italy">
-        <div class="caption">
-          <h3>Photo Four</h3>
-          <p>Dummy text</p>
-        </div>
-      </div>
-    </main>
-
-    <footer>
-      <h3>Get In Touch</h3>
-      <p>Email or Call to schedule a consultation.</p>
-      <p>email at blah blah</p>
-      <p>call us at 3435-4532-121</p>
-    </footer>
-
-
-  </body>
+    
+        <div id="images">
+          <div id="text">
+            <h2>We offer group travel packages for people of all ages. Experience the trip of a lifetime with Globe Trotter Travels!</h2>
+          </div>
+          <img src="img/paris.jpeg" alt="italy">
+          <div class="caption" id="text">
+            <h2>European Destinations</h2>
+            <h3>Our trips are available in many European countries. We specialize in guided tours, food tours, and organizing accomodations.</h3>
+          </div>
+          <img src="img/greece.jpeg" alt="greece">
+      </main>
+    
+      <footer>
+        <h3>Contact Us</h3>
+        <p>email at globetravel@travel.com</p>
+        <p>Call us at 555-555-5555</p>
+      </footer>
+    
+    
+    </body>
+   
 
 </html>
