@@ -157,7 +157,7 @@ h1 {
   
  footer {
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2rem 6rem;
     margin: auto;
     color: #5066A2;
  }
@@ -204,6 +204,7 @@ h1 {
     grid-template-rows: 12em 12em 12em;
     justify-content: center;
     gap: 2em;
+    color: #5066A2;
   }
 
   .about-1 {
@@ -212,6 +213,21 @@ h1 {
       background-size: cover;
       background-repeat: no-repeat;
   }
+
+  .container {
+    width: 95%;
+    margin: 0 auto;
+    color: #5066A2;
+  }
+
+  .content {
+    margin: 2%;
+    padding: 1rem;
+    background: whitesmoke;
+    width: 25%;
+    float: left;
+  }
+
   
  
 @media (min-width: 700px) {
