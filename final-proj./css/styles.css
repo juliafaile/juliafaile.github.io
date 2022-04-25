@@ -35,8 +35,7 @@ body {
 }
 
 .plane {
-    margin-left: 10px;
-    color: #5066A2;
+    margin-left: 10px;;
 }
 
 .logo a, .nav-menu a {
@@ -162,7 +161,6 @@ h1 {
   
  footer {
     text-align: center;
-    padding: 2rem 6rem;
     margin: auto;
     color: #5066A2;
  }
@@ -205,7 +203,7 @@ h1 {
 
   .grid-2 {
     display: grid;
-    grid-template-columns: 75%;
+    grid-template-columns: 95%;
     grid-template-rows: 12em 12em 12em;
     justify-content: center;
     gap: 2em;
@@ -219,18 +217,45 @@ h1 {
       background-repeat: no-repeat;
   }
 
-  .container {
-    width: 95%;
-    margin: 0 auto;
-    color: #5066A2;
+  .container-main {
+    display: flex;
+    flex-direction: row;
   }
-
-  .content {
-    margin: 2%;
-    padding: 1rem;
-    background: whitesmoke;
-    width: 25%;
-    float: left;
+  
+  .grid-left {
+      grid-area: grid-left;
+      display: grid;
+      background-color: whitesmoke;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-rows: 50%;
+      height:90vh;
+      width: 100%;
+      border-radius: 12px;
+      grid-gap: 10px;
+      grid-template-areas:
+      "image1 image2 image3"
+  }
+  
+  .image1 {
+      grid-area: image1;
+      margin: 10px;
+      border-radius: 20px;
+      text-align: left;
+      grid-gap: 10px;
+  }
+  
+  .image2 {
+    grid-area: image2;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: left;
+  }
+  
+  .image3 {
+    grid-area: image3;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: left;
   }
 
   
