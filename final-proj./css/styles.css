@@ -34,6 +34,11 @@ body {
     text-align: center;
 }
 
+.plane {
+    margin-left: 10px;
+    color: #5066A2;
+}
+
 .logo a, .nav-menu a {
     display: block;
     text-decoration: none;
@@ -117,19 +122,19 @@ h1 {
     margin: 0;
  }
   
- .btn {
+ .button {
     padding: 1rem;
     border: 1px #ccc solid;
     display: inline-block;
-    margin: 2rem 0 0;
+    margin: 1em;
     border-radius: 50px;
     text-decoration: none;
     color: black;
     transition: background 500ms ease;
  }
   
- .btn:hover {
-    background: black;
+ .button:hover {
+    background: #5066A2;
     color: white;
  }
   
